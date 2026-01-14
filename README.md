@@ -1,5 +1,4 @@
 ## Autor
 Ilsa Pineda
 
-## Descripción del proyecto
-Proyecto de prácticas de Git para DAW.
+## Descripción del proyecto: Versión editada desde la web
