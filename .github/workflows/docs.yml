@@ -1,0 +1,13 @@
+name: Documentación automática
+on:
+  push:
+    branches: [ main, rama-colaborativa ]
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Instalar MkDocs
+        run: pip install mkdocs
+      - name: Generar documentación
+        run: mkdocs build
